@@ -30,20 +30,29 @@ Connect the cathode (shorter leg) of the LED to GND (ground).
 
 
 ## PROGRAM (MicroPython)
-```
+```from machine import Pin
+from utime import sleep
+led1 = Pin(0, Pin.OUT)
+led2 = Pin(4, Pin.OUT)
+led = Pin(11, Pin.OUT)
+buzz=Pin(6, Pin.OUT)
 
+while True:
+    led1.toggle()
+    sleep(0.5)
+    buzz.toggle()
+    sleep(0.5)
+    led2.toggle()
+    sleep(0.5)
+    buzz.toggle()
+    sleep(0.5)
+    led.toggle()
+    sleep(0.5)
+    buzz.toggle()
+    sleep(0.5)
 
- 
+## OUPUT 
+ ![Screenshot 2025-02-03 151338](https://github.com/user-attachments/assets/9d676038-2408-4b4c-9a7a-3f95fdf21e5b)
 
-
-
- 
-
-
-## OUPUT  
-
-
-
- 
 ## RESULTS
 The LED connected to the Raspberry Pi Pico successfully turns ON and OFF at 1-second intervals, confirming the proper interfacing of a digital output.

@@ -83,7 +83,8 @@ while True:
 
 ![Screenshot 2025-02-24 112909](https://github.com/user-attachments/assets/8ed072e9-30b3-4f89-9b87-eae81c78f64d)
  
- ![Screenshot 2025-02-03 151338](https://github.com/user-attachments/assets/9d676038-2408-4b4c-9a7a-3f95fdf21e5b)
+![Screenshot 2025-02-24 112005](https://github.com/user-attachments/assets/b2e717b8-3445-46e1-9bbf-c50b560aa3ba)
+
 
 ## RESULTS
 The LED connected to the Raspberry Pi Pico successfully turns ON and OFF at 1-second intervals, confirming the proper interfacing of a digital output.

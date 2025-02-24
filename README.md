@@ -83,7 +83,8 @@ while True:
 
 ![Screenshot 2025-02-24 112909](https://github.com/user-attachments/assets/8ed072e9-30b3-4f89-9b87-eae81c78f64d)
  
-![Screenshot 2025-02-24 112005](https://github.com/user-attachments/assets/b2e717b8-3445-46e1-9bbf-c50b560aa3ba)
+![{C428ADE3-7093-4EDB-A5FE-B17B0C537AE4}](https://github.com/user-attachments/assets/18ffba04-13ec-4346-a934-d4c67866f424)
+
 
 
 ## RESULTS

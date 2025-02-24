@@ -1,5 +1,5 @@
 # EXPERIMENT-01-INTERFACTING-DIGITAL-OUTPUT-WITH-EDGE-DEVICE---RASPBERRYPI-PICO-
-## NAME MIDHUN S
+## NAME: MIDHUN S
 ## DEPARTMENT: AIDS
 ## ROLL NO:212224230158
 ## DATE OF EXPERIMENT: 24/02/2025
@@ -41,6 +41,7 @@ while True:
     led1.toggle()
     sleep(0.5)
 ```
+```
 from machine import Pin
 from utime import sleep
 led1 = Pin(0, Pin.OUT)
@@ -54,6 +55,7 @@ while True:
     sleep(0.5)
     led.toggle()
     sleep(0.5)
+```
 ```
 from machine import Pin
 from utime import sleep
